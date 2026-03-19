@@ -24,4 +24,4 @@ jobs:
       - name: Run Scraper
         env:
           EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
-        run: python scraper.py
+        run: scraper.py
